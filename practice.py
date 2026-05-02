@@ -8,7 +8,7 @@ load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 client = genai.Client(api_key=api_key)
 
-st.title("💬 Gemini Chatbot")
+st.title("💬 George's Chatbot")
 
 # 1. Store conversation history
 if "messages" not in st.session_state:
